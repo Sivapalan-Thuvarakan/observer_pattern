@@ -2,6 +2,11 @@ package observer;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
+        //My scenario is all about movie subscribe,there are different kind of  movie subscribers like Action, Comedy,Horror movies subscriber.
+        //when new movie is released ,all subscriber will be notified through message.in message movie name and Type will be included
+        //based on that movie subscriber subscribe movie or unsubscribe movie!!!
+
+
         //publisher -> Subject
         //subscriber -> Observer
         //types of observers -> Action_movie_subscriber,Horror_movie_subscriber,Romance_movie_subscriber,Comedy_movies_subscriber
